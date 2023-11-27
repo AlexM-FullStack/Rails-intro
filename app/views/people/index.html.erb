@@ -1,0 +1,7 @@
+<h1>List of all people from database</h1>
+
+<ul>
+    <% @people.each do |person| %>
+        <li> <%= person.first_name %> <%= person.last_name %> </li>
+    <% end %>
+</ul>
